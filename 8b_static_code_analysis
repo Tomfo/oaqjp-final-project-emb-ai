@@ -1,0 +1,12 @@
+theia@theiadocker-ekowbeduaddo:/home/project/final_project$ pylint server.py
+************* Module server
+server.py:26:0: C0301: Line too long (118/100) (line-too-long)
+server.py:7:0: E0401: Unable to import 'flask' (import-error)
+server.py:22:4: W0612: Unused variable 'joy' (unused-variable)
+server.py:23:4: W0612: Unused variable 'sadness' (unused-variable)
+server.py:24:4: W0612: Unused variable 'dominant_emotion' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 5.00/10, +0.00)
+
+theia@theiadocker-ekowbeduaddo:/home/project/final_project$ 
